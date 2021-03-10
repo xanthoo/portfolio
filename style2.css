@@ -7,20 +7,13 @@
 html {
   font-family: "Montserrat";
 }
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #111;
-  color: rgba(255, 255, 255, 0.671);
-  font-size: 30px;
-}
 .container {
   min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 0;
+  padding: 50px 0;
   background-color: #111;
 }
 .timeline {
@@ -52,7 +45,7 @@ html {
   color: white;
 }
 .timeline-content h1 {
-  font-weight: 500;
+  font-weight: 900;
   font-size: 25px;
   line-height: 30px;
   margin-bottom: 10px;
@@ -80,7 +73,7 @@ html {
     background-color: gray;
   }
   .timeline ul li {
-    width: 50%;
+    width: 100%;
     position: relative;
     margin-bottom: 50px;
   }
@@ -120,7 +113,8 @@ html {
   .timeline ul li:hover::before {
     background-color: aqua;
   }
-  .header a:link, a:visited {
+
+.header a:link, a:visited {
     background-color: rgba(128, 128, 128, 0.192);
     color: white;
     padding: 14px 25px;
@@ -129,32 +123,22 @@ html {
     display: inline-block;
   }
   
- .header, a:hover, a:active {
-    background-color: #111;
-  }
-  footer a:link, a:visited {
-    background-color: rgba(128, 128, 128, 0.192);
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
- foorer, a:hover, a:active {
+ .header a:hover, a:active {
     background-color: grey;
   }
-
-  .under_header h1{
-    color: rgb(189, 189, 189);
-    padding-top: 20px;
-    font-size: 40px;
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #111;
+    color: rgba(255, 255, 255, 0.671);
+    font-size: 30px;
   }
-footer {
-  padding: 60px;
-  text-align: center;
-  background: #111;
-  color: rgba(255, 255, 255, 0.671);
-  font-size: 30px;
+
+.under_header h1{
+  color: rgb(189, 189, 189);
+  padding-top: 20px;
+  font-size: 40px;
 }
+
+
 }
