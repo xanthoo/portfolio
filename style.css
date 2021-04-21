@@ -157,4 +157,11 @@ footer {
   color: rgba(255, 255, 255, 0.671);
   font-size: 30px;
 }
+
+.imageContainer > img:hover {
+  width: 600px;
+  height: 600px;
+  cursor: pointer;
 }
+}
+
