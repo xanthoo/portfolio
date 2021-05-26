@@ -159,8 +159,13 @@ footer {
 }
 
 .imageContainer > img:hover {
-  width: 600px;
-  height: 600px;
+  width: 200%;
+  height: 200%;
+  cursor: pointer;
+}
+.imageContainerProposition > img:hover {
+  width: 240%;
+  height: 240%;
   cursor: pointer;
 }
 }
