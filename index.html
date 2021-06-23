@@ -656,11 +656,11 @@
                   <br>
                   Next, we made the wireframes on Draw.io, however Edin recommended he re-does them on Adobe XD, so here are the final wireframes:
                   <div class="imageContainer">
-                    <img style="display:block;" width="100%" height="100%" src="images/sleep_cycle.png" alt="">
-                    <img style="display:block;" width="100%" height="100%" src="images/nav_bar.png" alt="">
-                    <img style="display:block;" width="100%" height="100%" src="images/not_driving.png" alt="">
-                    <img style="display:block;" width="100%" height="100%" src="images/productivity.png" alt="">
-                    <img style="display:block;" width="100%" height="100%" src="images/starting_screen.png" alt="">
+                    <img style="display:block;" width="100%" height="100%" src="images/SLEEP_CYCLE2x.png" alt="">
+                    <img style="display:block;" width="100%" height="100%" src="images/TIPS2x.png" alt="">
+                    <img style="display:block;" width="100%" height="100%" src="images/TIPS_nav2x.png" alt="">
+                    <img style="display:block;" width="100%" height="100%" src="images/prod_regular.png" alt="">
+                   
                   </div>
                   <p>
                     After creating the wireframes, we created the user stories + giving them a MOSCOW lettering, depending on the story's importantance. <br>
@@ -684,9 +684,60 @@
                 On Monday 14.06.2021 our group went to school in order to combine all of the work that we devided between us. After much twinkering around, trying to make all the code work as intended, after about 3 hours we finally managed to combine everything. Now the phone will start vibrating while the person who is sleep deprived is driving above 30km/h, and it will stop only if the speed decreases. We all worked on figuring out how to get the FitBit API readings, and implementing them into the correct pages and h1 tags.
                 <br>
                 After combining all of the code, I took the initiative to start working on the notification system.
+                <br>
+                After a bit of research, I came to the conlcusion that using notifications is close to impossible with the time we have left, since they need to be communicating with a database constantly and also an API that I either have no access to or will be too time consuming.
               </p>
           </div>
+          
         </li>
+        <li>
+          <div class="timeline-content">
+            <h3 class="date">7th phase of Client project - Usability testing and usage of localStorage</h3>
+            <h1>Usability testing and using local storage for productivty page </h1>
+            <img style="display:block;" width="100%" height="100%" src="images/usability testing.png" alt="">
+              <p>
+                On Tuesday, 22.06.2021 our team gathered in Fontys again. During this session we worked on polishing already existing features such as the front end, vibration and speed. During this, we decided to ask Daan if he can volunteer to be a part of our usability testing. I invited him to get in my car, while he has the application open and after we reached speeds of 30 km/h, the phone started vibrating, until I lowered the speed, thus making our usability test a success.
+                <br>
+                After that I took the initiative to figure out how to implement the "Productivity" page on our app. After speaking with Geert-Jan, he told me to look into "local storage". After a little bit of research and tinkering with the code, I managed to get it to work.
+                <br>
+                Below are images of use cases:
+                <div class="imageContainer">
+                  <img style="display:block;" width="100%" height="100%" src="images/prod_regular.png" alt="">
+    
+                </div>
+                <br>
+                <p>This is what happens in the console after you select the score of your sleep and submit it:</p>
+                <div class="imageContainer">
+                  <img style="display:block;" width="100%" height="100%" src="images/prod_regular_console.png" alt="">
+    
+                </div>
+                <p>
+                  In the image below, we can see that if the user has raited their score below 3, they receive a quick reminder to sleep more tonight:
+                </p>
+                <div class="imageContainer">
+                  <img style="display:block;" width="100%" height="100%" src="images/prod_less_than_2.png" alt="">
+    
+                </div>
+                <p>
+                  Below is a quick code snippet on how it works:
+                </p>
+                <div class="imageContainer">
+                  <img style="display:block;" width="100%" height="100%" src="images/prod_less_code.png" alt="">
+    
+                </div>
+                <p>
+                  And of course, demonstration that it actually does update the rating.
+                </p>
+                <div class="imageContainer">
+                  <img style="display:block;" width="100%" height="100%" src="images/prod_less_console.png" alt="">
+    
+                </div>
+
+              </p>
+          </div>
+          
+        </li>
+        
       </ul>
     </div>
   </div>
